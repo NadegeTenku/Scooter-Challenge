@@ -1,0 +1,23 @@
+{
+  "name": "scooter-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:report": "jest --coverage=true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NadegeTenku/Scooter-Challenge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NadegeTenku/Scooter-Challenge/issues"
+  },
+  "homepage": "https://github.com/NadegeTenku/Scooter-Challenge#readme",
+  "dependencies": {
+    "jest": "^27.3.1"
+  }
+}
