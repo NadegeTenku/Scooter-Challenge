@@ -19,5 +19,6 @@
   "homepage": "https://github.com/NadegeTenku/Scooter-Challenge#readme",
   "dependencies": {
     "jest": "^27.3.1"
-  }
+  },
+  "keywords": []
 }
