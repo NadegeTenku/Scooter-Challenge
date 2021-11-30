@@ -1,27 +1,17 @@
-const ScooterApp = require('./ScooterApp')
-const Scooter = require('./Scooter')
-const User = require('./User')
+const ScooterApp = require('../src/ScooterApp')
+const Scooter = require('../src/Scooter')
+const User = require('../src/User')
 
 describe('User', () => {
+    const testuser = new User("Nadege", "password", 18)
     test('has userName and password', () => {
-        const testuserName = new User()
-        const testpassword = new User()
-        expect(testuserName.testpassword.User).toBeTruthy();
-        console.log('User verified');
+        expect(testuser.userName).toBe("Nadege");
+        expect(testuser.password).toBe("password");
 
     })
     test('is 18 and above', () => {
-        if(User.age <= 17)
-        expect(testage.age).toBeNull()
-        console.log('Age not verified');
-
+        expect(testuser.age).toBe(18)
+        expect(testuser.validUser).toBeTruthy()
     })
 
-    const userName1 = new Scooter('pswd', 'age');
-    const userName2 = new Scooter('pswd', 'age');
-
 })
-
-
-console.log(userName1.userName.pswd.age);
-console.log(userName2.userName.pswd.age);
