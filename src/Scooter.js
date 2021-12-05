@@ -1,13 +1,16 @@
 class Scooter {
     static serialNumberCount = 101
-    constructor(station, user) {
+    constructor(station, user, checkedOut) {
         this.serialNumberCount = Scooter.serialNumberCount;
         Scooter.serialNumberCount+= 1
         this.station = station
         this.user = user
+        this.checkedOut = checkedOut
 
     }
-
+    checkOut() {
+        this.checkedOut = !this.checkedOut
+    }
 
 }
 
