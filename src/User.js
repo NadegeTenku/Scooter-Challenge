@@ -19,8 +19,9 @@
       payment(duration) {
          if (this.hasPaid === false) {
             const rate = 2
-        
-            return rate * duration
+            const amount = rate * duration
+            console.log(`you owe $${amount}`)
+            return amount
          }
 
     }
